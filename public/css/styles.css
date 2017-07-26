@@ -319,6 +319,12 @@ nav #nav_menu ul li a:hover{
     font-size: 0.7em;
 }
 
+@media screen and (max-width: 460px) {
+    .well p{
+        line-height: 30px;
+    }
+}
+
 /*Contact*/
 
 #contact{
@@ -342,6 +348,8 @@ nav #nav_menu ul li a:hover{
     #contact .glyphicon-responsive{
         margin-top: 30px;
     }
+
+
 
     #contact .glyphicon{
         font-size: 2em;
