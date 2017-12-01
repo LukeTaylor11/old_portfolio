@@ -96,13 +96,33 @@
                 </div>
             </div>
         </div><br>
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <div class="thumbnail">
+                    <div class = "thumbnail-image">
+                        <img src = "images/tmorph-macros.png">
+                    </div>
+                    <div class="caption">
+                        <h3>Tmorph Macros</h3>
+                        <p>This was a website I created quite quickly to help me and any others create an in-game macro for World of Warcraft. The user has to
+                        paste the URL for a sepcific character and my website then uses the blizzard API to produce a macro which they can copy to their clipboard and
+                        paste in game. This allows the user to make their character look like the character from the URL, however it only changes their appearance for their own computer<br><br>
+                        How it works: <a href = "https://www.youtube.com/watch?v=57OlbnbR7yQ" target = "_blank">https://www.youtube.com/watch?v=57OlbnbR7yQ</a>
+                        </p>
+                        <p><a href="http://www.tmorphmacros.com/" target = "_blank" class="btn btn-primary" role="button">View Website</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6">
+            </div>
+        </div><br>
         <h2>Skills</h2>
         <hr>
         <div class = "row">
             <div class = "col-md-6">
                 <ul>
                     <li>HTML</li>
-                    <li>CSS</li>
+                    <li>CSS/SCCS</li>
                     <li>Javascript</li>
                     <li>Jquery</li>
                 </ul>
@@ -112,6 +132,7 @@
                     <li>PHP</li>
                     <li>MySQL</li>
                     <li>Laravel</li>
+                    <li>Command Line</li>
                 </ul>
             </div>
         </div><br>

@@ -10,6 +10,8 @@ use Illuminate\Support\Facades\Mail;
 
 use Illuminate\Support\Facades\Session;
 
+use Illuminate\Support\Facades\Response;
+
 class siteController extends Controller
 {
     public function index(){
@@ -34,8 +36,13 @@ class siteController extends Controller
             $message->to('luke.taylor11@hotmail.com')
                 ->subject("Contact via luke-taylor.com");
         });
-
         $request->session()->flash('status', 'success');
         return redirect('/');
+    }
+
+    public function downloadFootballManager(){
+        //PDF file is stored under project/public/download/info.pdf
+        $file="./football manager.zip";
+        return Response::download($file);
     }
 }

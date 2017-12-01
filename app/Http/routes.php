@@ -14,3 +14,7 @@
 Route::get('/', 'siteController@index');
 
 Route::post('/', 'siteController@sendMail');
+
+Route::get('/football_manager', 'siteController@downloadFootballManager');
+
+
